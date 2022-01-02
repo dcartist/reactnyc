@@ -15,11 +15,14 @@
     "react-js-stickynav": "^1.0.2",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-transition-group": "^4.4.2",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "watch": "webpack-dev-server --env.ENVIRONMENT=development --content-base src/ --mode development --watch --watch-poll",
+    "dev": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
