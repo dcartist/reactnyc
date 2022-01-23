@@ -1,0 +1,36 @@
+
+.main{
+
+    min-height: 100vh;
+}
+.intro_main{
+    // background-image: url('../images/photos/construction1blkwhite.jpg');
+    min-width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 70vh;
+    .intro{
+        // background-color: black;
+        color: white;
+        padding: 25px;
+        .contractor{
+            background-color: black;
+            display: block;
+            padding: 20px;
+            border-radius: 15px;
+            width: 100vw;
+            p{
+                font-size: 3rem;
+            }
+        }
+        img {
+            width: 45%;
+            filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.432));
+        }
+    }
+
+    
+}
