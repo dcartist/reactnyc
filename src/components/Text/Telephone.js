@@ -11,5 +11,5 @@ export default function Telephone(props) {
         return null;
       }
     
-  return <div>{formatPhoneNumber(props)}</div>;
+  return <span>{formatPhoneNumber(props)}</span>;
 }
